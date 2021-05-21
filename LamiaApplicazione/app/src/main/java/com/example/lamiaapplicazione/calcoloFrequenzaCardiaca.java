@@ -11,7 +11,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 
-public class MainActivity2 extends AppCompatActivity {
+public class calcoloFrequenzaCardiaca extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void scambioFinestre(View V) {
-        Intent intent = new Intent(MainActivity2.this,MainActivity.class);
+        Intent intent = new Intent(calcoloFrequenzaCardiaca.this,MainActivity.class);
         startActivity(intent);
     }
 }

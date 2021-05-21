@@ -15,12 +15,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void scambioFinestreFC(View V) {
-        Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+        Intent intent = new Intent(MainActivity.this,calcoloFrequenzaCardiaca.class);
         startActivity(intent);
     }
 
     public void scambioFinestreFR(View V) {
-        Intent intent = new Intent(MainActivity.this,MainActivity3.class);
+        Intent intent = new Intent(MainActivity.this,calcoloFrequenzaRespiratoria.class);
         startActivity(intent);
     }
 
